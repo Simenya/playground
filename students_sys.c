@@ -1,7 +1,13 @@
+//C programming students grading system
 #include<stdio.h>
 #include<math.h>
 #include<string.h> 
-int main () {
+int grade();
+void main () {
+   grade();
+}
+
+int grade(){
     int age, x =1;
     char reg_no[30], course[30];
     while (x == 1) {
@@ -21,5 +27,4 @@ int main () {
     printf("Enter 1 or any other integer to quit: ");
     scanf("%d",&x);
     }
-    return 0;
 }
